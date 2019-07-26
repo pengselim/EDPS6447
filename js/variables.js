@@ -48,6 +48,10 @@ console.log(helloworld);
 // HTML elements can also be assigned to variables, we will make extensive use of this method in JS for building web apps to return the element with the ID attribute of a specified value - https://www.w3schools.com/jsref/met_document_getelementbyid.asp
 */
 
+// Top Header
+var search =document.getElementById("search");
+console.log(search);
+
 // UI Landing
 var landingslide1 = document.getElementById("landingslide1");
 console.log(landingslide1);
@@ -79,3 +83,6 @@ var arrow3 = document.getElementById("arrow3");
 console.log(arrow3);
 var arrowright = document.getElementById("arrowright");
 console.log(arrowright);
+
+var search =document.getElementById("search");
+console.log(search);

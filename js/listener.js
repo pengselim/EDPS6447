@@ -1,8 +1,7 @@
-// UI Components (Nav Icons)
-.addEventListener("click",function(){
-    API_request();
-});
+// TOP HEADER ELEMENT
 
+search.addEventListener("click",function(){
+    navigation("search");
 
 // UI Landing Page (Carousel)
 
@@ -29,10 +28,12 @@ arrow3.addEventListener("click",function(){
 });
 arrowright.addEventListener("click",function(){
     navigation("»");
+    
+    
+
 
 
 /* jQuery Example Event Listener - Similar to plain Javascript example above
 $("#input_ico_locate").on('click',function(){
   API_request();  
 })
-*/
